@@ -12,3 +12,4 @@ if 'eve' in list:
 for i in range(100):
     print i
 
+fav_movies = [ 'baywatch', 'black panther', 'avengers', 'The mummy' ]
