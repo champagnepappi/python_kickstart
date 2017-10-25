@@ -15,3 +15,5 @@ for i in range(100):
 fav_movies = [ 'baywatch', 'black panther', 'avengers', 'The mummy' ]
 for each_flick in fav_movies:
     print(each_flick)
+    print(fav_movies[0])
+    print(fav_movies[1])
