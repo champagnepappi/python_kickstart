@@ -23,3 +23,5 @@ count = 0
 while count < (len(fav_movies)):
     print(fav_movies[count])
     count += 1
+
+isinstance(fav_movies, list)
