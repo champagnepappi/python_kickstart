@@ -9,3 +9,4 @@ print 3+2+1-5+4%2-1/4 + 6
 print "is is true that 3+2<5-7?"
 print 3+2<5-7
 print "what is 3 + 2?", 3+2
+print "Remainder of 30.0 % 5 is ", 30.0%5
