@@ -9,7 +9,8 @@ if len(original) > 0 and original.isalpha():
     first = word[0]
     new_word = word + first + pyg
     new_word = new_word[1:len(new_word)]
-    print original
+    print "Original word is: "+ original
+    print "The new word is: " + new_word
 else:
     print "empty"
 
