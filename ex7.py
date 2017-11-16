@@ -5,3 +5,5 @@ print "." * 10
 end1 = "C"
 end2 = "H"
 end3 = "I"
+
+print end1 + end2 + end3
