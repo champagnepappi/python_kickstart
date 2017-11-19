@@ -8,3 +8,8 @@ I'll do a list
 \t* fishies
 \t* Catnip\n\t* Grass
 """
+
+print tabby_cat
+print persian_cat
+print backlash_cat
+print fat_cat
