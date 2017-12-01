@@ -4,3 +4,7 @@ santos = { "languages" : ["ruby", "python", "java"], "level": "junior dev" }
 
 students = [kevin, shaz]
 
+for student in students:
+    print student["name"]
+    print student["homework"]
+    print student["tests"]
