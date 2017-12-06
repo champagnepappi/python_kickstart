@@ -9,3 +9,6 @@ print "I'd like to ask you a few questions."
 print "Do you like me %s?" % user_name
 
 likes = raw_input(prompt)
+
+print "where do you live %s? " % user_name
+lives = raw_input(prompt)
