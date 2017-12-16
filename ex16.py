@@ -9,3 +9,11 @@ print "If you do want that hit RETURN"
 raw_input("?")
 print "OPening file..."
 target = open(filename, 'w')
+
+print "Truncating file, Goodbye"
+target.truncate()
+
+print "Now am gonna ask you for three lines"
+line1 = raw_input("line 1:")
+line2 = raw_input("line 2:")
+line3 = raw_input("line 3:")
