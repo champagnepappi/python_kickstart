@@ -11,3 +11,5 @@ indata = in_file.read()
 print "Does the output file exist? %r" %exists(to_file)
 print "Ready, hit RETURN to continue, CTRL-C to abort"
 raw_input()
+
+out_file = open(to_file, 'w')
