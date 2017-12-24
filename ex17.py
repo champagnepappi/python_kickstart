@@ -13,3 +13,4 @@ print "Ready, hit RETURN to continue, CTRL-C to abort"
 raw_input()
 
 out_file = open(to_file, 'w')
+out_file.write(indata)
