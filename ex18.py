@@ -7,3 +7,6 @@ def print_two_again(arg1, arg2):
 
 def print_one(ar1):
     print "arg1: %r" %arg1
+
+def print_none():
+    print "I got nothing"
