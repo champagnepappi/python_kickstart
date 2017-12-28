@@ -4,3 +4,6 @@ def print_two(*args):
 
 def print_two_again(arg1, arg2):
     print "arg1: %r, arg2: %r " %(arg1, arg2)
+
+def print_one(ar1):
+    print "arg1: %r" %arg1
