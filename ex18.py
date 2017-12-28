@@ -10,3 +10,8 @@ def print_one(ar1):
 
 def print_none():
     print "I got nothing"
+
+print_two("KEv","Santos")
+print_two_again("Dave","Shaz")
+print_one("Just one")
+print_none()
