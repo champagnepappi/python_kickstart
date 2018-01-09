@@ -36,3 +36,6 @@ def print_first_and_last_sorted(sentence):
 
 
 sentence = "All good things in life are free"
+words =  break_words(sentence)
+print sort_words(words)
+
