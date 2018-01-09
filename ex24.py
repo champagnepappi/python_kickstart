@@ -13,7 +13,7 @@ and requires an explanation
 print "------------------------"
 print poem
 print "------------------------"
-
+p
 five = 10 - 2 + 3 - 6
 print "This should be five: %s"  % five
 
@@ -24,4 +24,9 @@ def secret_formula(started):
     return jell_beans, jars, crates
 
 start_point = 10000
+beans, jars, crates = secret_formula(start_point)
+
+print "With a starting point of: %d" % start_point
+print "We'd have %d beans, %d jars, and %d crates" %(beans, jars, crates)
+
 
