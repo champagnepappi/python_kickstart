@@ -39,3 +39,6 @@ sentence = "All good things in life are free"
 words =  break_words(sentence)
 print sort_words(words)
 
+print print_first_word(words)
+print print_last_word(words)
+
