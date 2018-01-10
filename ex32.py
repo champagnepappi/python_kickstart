@@ -13,3 +13,6 @@ for c in change:
     print "Change is: %r" % c
 
 elements = []
+
+for i in range(0,9):
+    print "Element is %d" %i
