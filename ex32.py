@@ -5,3 +5,5 @@ change = [1,'pennies', 32, 'dimes',5,'guwa']
 for count in the_count:
     print "Count is: %d" % count
 
+for fruit in fruits:
+    print "Fruit available: %s" %fruit
