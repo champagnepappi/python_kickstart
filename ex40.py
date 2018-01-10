@@ -1,4 +1,4 @@
-import mystuff
+class Song(object):
+    def __init__(self,lyrics):
+        self.lyrics = lyrics
 
-mystuff.apple()
-print mystuff.tangarine
