@@ -1,1 +1,3 @@
+import mystuff
 
+mystuff.apple()
