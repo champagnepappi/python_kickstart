@@ -50,4 +50,8 @@ def bear_room():
         else:
             cthulhu_room()
 
+def dead(why):
+    print why, "Good job"
+    exit(0)
+
 
