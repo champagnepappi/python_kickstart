@@ -17,7 +17,21 @@ def gold_room():
 
 def bear_room():
     print "There is a bear here"
-    print "The bear has alot of honey"
+    print "The bear has a lot of honey"
     print "The fat bear is in front of another door"
     print "How are you going to move the bear?"
     bear_moved = False
+
+    while True:
+        next = raw_input(">")
+        if next == "take honey":
+            dead("The bear looks at you then slaps your face off")
+        elif next == "taunt bear" and not bear_moved:
+            print "The bear has moved from door. You can go through it now"
+            bear_moved = True
+        elif next == "taunt bear" and bear_moved:
+            dead("The bear gets pissed of and chews your leg off")
+        elif next == "open door" and bear_moved:
+            gold_room()
+        else:
+            print "I got no f idea what that means"
