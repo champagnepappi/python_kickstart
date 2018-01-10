@@ -35,3 +35,19 @@ def bear_room():
             gold_room()
         else:
             print "I got no f idea what that means"
+
+    def cthulhu_room():
+        print "Here you see the great evil Cthulhu"
+        print "Whatever stares at you and go insane"
+        print "Do you flee for your life and eat your head?"
+
+        next = raw_input(">")
+
+        if "flee" in next:
+            start()
+        elif "head" in next:
+            dead("Well that was tasty")
+        else:
+            cthulhu_room()
+
+
