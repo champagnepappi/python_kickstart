@@ -11,3 +11,5 @@ for fruit in fruits:
 """Use %r because we are not sure of item type"""
 for c in change:
     print "Change is: %r" % c
+
+elements = []
