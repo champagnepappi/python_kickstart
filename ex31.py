@@ -21,3 +21,6 @@ elif door == "2":
     print "1. Blueberries"
     print "2.  Yellow jacket clothespins"
     print "3. Understanding revolvers yelling melodies"
+
+    insanity = raw_input(">")
+
