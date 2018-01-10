@@ -11,3 +11,17 @@ class Other(object):
 class Child(object):
     def __init__(self):
         self.other = Other()
+
+    def implicit(self):
+        print "CHILD implicit()"
+
+    def altered(self):
+        print "CHILD, BEFORE OTHER altered()"
+        self.other.altered()
+        print "CHILD, AFTER OTHER altered()"
+
+son = Child()
+
+son.implicit()
+son.override()
+son.altered()
