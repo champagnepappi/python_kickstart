@@ -21,6 +21,11 @@ class Child(Parent):
 dad = Parent()
 son = Child()
 
+dad.implicit()
+son.implicit()
+
 dad.override()
 son.override()
 
+dad.altered()
+son.altered()
