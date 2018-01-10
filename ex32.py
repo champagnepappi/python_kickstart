@@ -16,3 +16,7 @@ elements = []
 
 for i in range(0,9):
     print "Element is %d" %i
+    elements.append(i)
+
+for i in elements:
+    print "Element was: %d" %i
