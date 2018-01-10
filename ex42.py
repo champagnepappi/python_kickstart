@@ -4,3 +4,7 @@ class Animal(object):
 class Dog(Animal):
     def __init__(self, name):
         self.name = name
+
+class Cat(Animal):
+    def __init__(self, name):
+        self.name = name
