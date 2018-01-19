@@ -4,3 +4,5 @@ def digit_sum(n):
       a = a + int(each)
 
     return a
+
+print digit_sum(4198701)
