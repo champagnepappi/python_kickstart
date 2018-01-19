@@ -1,8 +1,9 @@
 def reverse(text):
     string = ""
-    l = len(text)-1
+    l = len(text)
     while l > 0:
-        string += text[l]
+        string += text[l-1]
         l -= 1
     return string
 
+print reverse("KEvin")
