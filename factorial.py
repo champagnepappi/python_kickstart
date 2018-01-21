@@ -4,3 +4,5 @@ def find_factorial(num):
     else:
         return num * factorial(num-1)
 
+num = raw_input("What's your number:")
+print find_factorial(3)
